@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #ab9b8b;
+}
+
+.menu-navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    color:black;
+    background-color: #ab9b8b;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: #62544b 11px -12px 20px 5px;
+    /* position: fixed; */
+    width: 100%;
+}
+
+/* .logo-menu-navegacao{
+    display: flex;
+    padding: 24px 32px;
+    color: black;
+    font-weight: 350;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+.logo-menu-navegacao img {
+    width: 100px;
+    height: 80%;
+    padding-left: 40px;
+    opacity: 0.8;
+}
+
+.nav-inicio{
+    display: flex;
+    cursor: pointer;
+    /* margin-left: auto; */
+    padding-right: 40px;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    margin: 85px;
+    max-width: 100%;
+}
+
+.imagem img {
+    box-shadow: #554034 1px 1px 20px 0px;
+
+}
+
+.link-inicio{
+    display: flex;
+    padding: 24px 32px;
+    text-decoration: none;
+    color: rgb(68, 64, 53);
+}
+
+.link-inicio:hover{
+    color: azure;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+}
+
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.titulo{
+    color: rgb(68, 64, 53);
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+        font-family: "Six Caps", sans-serif;
+        font-weight: 400;
+        font-style: normal;      
+    font-size: 67px;
+}
+
+.titulo-programacao{
+    color: rgb(68, 64, 53);
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+        font-family: "Six Caps", sans-serif;
+        font-weight: 400;
+        font-style: normal;      
+    font-size:40px;
+    text-align: center;
+}
+
+.titulo-personagens{
+    text-align: center;
+    /* text-decoration: underline 1px; */
+    color:#ab0d0d;
+    font-size: 35px;
+    margin-bottom: 70px;
+    /* font-family: "Tangerine", cursive; */
+}
+
+.texto-explicativo{
+    text-align: justify;
+    font-size: 1.5em;
+    padding: 0 50px 0 60px;
+    margin-bottom: 60px;
+    line-height: 1.5;
+    text-indent: 2em;
+}
+
+.secao-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 90px;
+}
+
+/* .card{
+    border-radius: 0px;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    color: black;
+} */
+
+/* .card a{
+    font-weight: 800;
+} */
+
+.cartao-body a{
+    text-decoration: none;
+    color: black;
+    font-family: "Pathway Extreme", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 25px;
+} 
+
+.cartao-body a:hover {
+opacity: 1;
+color:#ffffff;
+}
+
+.localizacao-texto{
+    color: black;
+    font-family: "Pathway Extreme", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 25px;
+    text-align: center;
+}
+/* .pedro-alvares{
+    text-decoration: none;
+    color: black;
+    font-family: "Tangerine", cursive;
+    font-size: 2.7em;
+}
+
+
+.pero-vaz{
+    text-decoration: none;
+    color: black;
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.povos-tupis-e-guaranis{
+    text-decoration: none;
+    color: black;
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+} */
+
+.rodape{
+   width: 100%;
+   height: auto;
+}
+
+.rodape-div{
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.mickeias{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.mickeias:hover{
+    color: white;
+}
