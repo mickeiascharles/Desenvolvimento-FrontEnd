@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Funcional</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Minha Página Interativa</h1>
+
+        <div class="card">
+            <h2>Cadastro de Alunos (com LocalStorage)</h2>
+            <input type="text" id="nome" placeholder="Digite o nome do aluno">
+            <button onclick="salvar()">Salvar</button>
+            <button class="limpar" onclick="limparTudo()">🧹 Limpar Tudo</button>
+            <ul id="lista"></ul>
+        </div>
+
+        <div class="card">
+            <h2>Formulário de Contato (com Formspree)</h2>
+            <form action="https://formspree.io/f/xvgrklyk" method="POST">
+                <label>Nome:</label>
+                <input type="text" name="nome" required>
+                
+                <label>E-mail:</label>
+                <input type="email" name="email" required>
+                
+                <label>Mensagem:</label>
+                <textarea name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2>Contato via WhatsApp</h2>
+            <a class="whatsapp-link" href="https://wa.me/+5521970992766" target="_blank">Fale conosco no WhatsApp</a>
+            <br><br>
+            <a class="whatsapp-link" href="https://wa.me/+5521970992766?text=Olá%2C%20gostaria%20de%20mais%20informações!" target="_blank">Enviar mensagem com texto pronto</a>
+        </div>
+    </div>
+
+    <footer>
+        <p id="relogio">Carregando hora...</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
